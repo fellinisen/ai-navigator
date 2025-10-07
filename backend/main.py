@@ -481,30 +481,30 @@ def calculate_assessment_score(
     if percentage_score >= 80:
         category = "AI Ready"
         recommendations = [
-            "Strong AI readiness",
-            "Consider advanced AI implementations",
-            "Focus on scaling existing initiatives",
+            "Advanced AI Implementation: Your organization shows strong AI readiness. Focus on scaling existing AI initiatives across departments by identifying high-impact use cases for expansion, establishing cross-functional AI teams, and implementing advanced analytics and machine learning models.",
+            "Innovation Leadership: Position your organization as an AI innovation leader in your industry by developing proprietary AI solutions that differentiate your business, creating partnerships with AI research institutions, and establishing an AI center of excellence.",
+            "Continuous Optimization: Maintain your competitive advantage through continuous AI improvement by implementing AI performance monitoring dashboards, establishing regular AI model retraining schedules, and creating feedback loops for continuous learning and adaptation."
         ]
     elif percentage_score >= 60:
         category = "Moderately Ready"
         recommendations = [
-            "Good foundation for AI",
-            "Address identified gaps",
-            "Run pilot programs",
+            "Strategic AI Planning: Develop a comprehensive AI strategy aligned with business objectives by conducting an AI readiness assessment across all departments, creating a 3-year AI roadmap with clear milestones, and establishing AI governance frameworks and ethical guidelines.",
+            "Skill Development: Invest in AI literacy and technical skills across your organization by implementing AI training programs for all employees, hiring or upskilling data scientists and AI specialists, and creating internal AI communities of practice for knowledge sharing.",
+            "Infrastructure Enhancement: Strengthen your data and technology infrastructure for AI implementation by auditing and upgrading data quality and accessibility systems, implementing cloud-based AI platforms and tools, and establishing robust data security and privacy protocols."
         ]
     elif percentage_score >= 40:
         category = "Developing Readiness"
         recommendations = [
-            "Improve data management and strategy",
-            "Invest in AI education",
-            "Start with small projects",
+            "Foundation Building: Establish the fundamental building blocks for AI adoption by creating a data inventory and quality assessment, implementing basic data management and governance policies, and identifying and prioritizing initial AI use cases with high business impact.",
+            "Leadership Alignment: Secure organizational commitment and resources for AI initiatives by educating senior leadership on AI opportunities and risks, establishing an AI steering committee with executive sponsorship, and allocating dedicated budget and resources for AI projects.",
+            "Pilot Project Implementation: Start with small-scale AI projects to build experience and confidence by selecting low-risk, high-visibility pilot projects, assembling cross-functional teams with clear roles and responsibilities, and establishing success metrics and regular progress reviews."
         ]
     else:
         category = "Not Ready"
         recommendations = [
-            "Build basic data infrastructure",
-            "Develop AI awareness and strategy",
-            "Focus on foundational capabilities",
+            "Digital Foundation: Build essential digital capabilities before pursuing AI initiatives by implementing basic data collection and storage systems, digitizing key business processes and workflows, and establishing reliable IT infrastructure and cybersecurity measures.",
+            "Organizational Awareness: Create understanding and buy-in for digital transformation and AI by conducting AI awareness workshops for leadership and key stakeholders, developing a clear business case for AI investment, and creating a culture of data-driven decision making.",
+            "Capability Assessment: Understand your current state and requirements for AI readiness by performing a comprehensive digital maturity assessment, identifying skill gaps and training needs across the organization, and benchmarking against industry standards and best practices."
         ]
 
     # Build maturity results similar to spreadsheet outputs

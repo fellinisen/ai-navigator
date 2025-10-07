@@ -8,32 +8,7 @@
           <p class="questionnaire-description">{{ questionnaire.description }}</p>
           <div class="progress-bar"><div class="progress-fill" :style="{ width: `${progress}%` }"></div></div>
           <p class="progress-text">Question {{ currentQuestionIndex + 1 }} of {{ questionnaire.questions.length }}</p>
-          <div class="quick-fill-toolbar">
-            <div class="quick-fill-section">
-              <label class="quick-fill-label">Current maturity:</label>
-              <select v-model="quickFillSelection" class="quick-fill-select">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="random">Random</option>
-              </select>
-            </div>
-            <div class="quick-fill-section">
-              <label class="quick-fill-label">Target maturity:</label>
-              <select v-model="targetQuickFillSelection" class="quick-fill-select">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="random">Random</option>
-              </select>
-            </div>
-            <button @click="quickFill" class="quick-fill-btn">Apply</button>
-            <button @click="quickFillAndGo" class="quick-fill-submit-btn">Apply & Go to Submit</button>
-          </div>
+
         </div>
         <div v-if="!showResults" class="question-section">
           <div class="question-card">
@@ -146,8 +121,6 @@ export default {
     const userEmail = ref('')
     const submitting = ref(false)
     const assessmentResults = ref(null)
-    const quickFillSelection = ref('3')
-    const targetQuickFillSelection = ref('3')
 
     const currentQuestion = computed(() => questionnaire.value?.questions[currentQuestionIndex.value])
     const progress = computed(() => !questionnaire.value ? 0 : ((currentQuestionIndex.value + 1) / questionnaire.value.questions.length) * 100)
@@ -188,53 +161,6 @@ export default {
       }
     }
 
-    const quickFill = () => {
-      if (!questionnaire.value) return
-      questionnaire.value.questions.forEach(q => {
-        // Handle current maturity selection
-        let currentVal
-        if (quickFillSelection.value === 'random') {
-          const opts = Array.isArray(q.options) ? q.options.map(o => o.value) : [1,2,3,4,5]
-          currentVal = opts[Math.floor(Math.random() * opts.length)]
-        } else {
-          currentVal = parseFloat(quickFillSelection.value)
-          
-          // Find the closest available option value if the exact decimal isn't available
-          if (Array.isArray(q.options) && !q.options.some(o => o.value === currentVal)) {
-            const availableValues = q.options.map(o => o.value);
-            // Default to the nearest integer if decimal isn't available
-            currentVal = Math.round(currentVal)
-          }
-        }
-        responses.value[q.id] = currentVal
-        
-        // Handle target maturity selection
-        let targetVal
-        if (targetQuickFillSelection.value === 'random') {
-          const opts = Array.isArray(q.options) ? q.options.map(o => o.value) : [1,2,3,4,5]
-          targetVal = opts[Math.floor(Math.random() * opts.length)]
-        } else {
-          targetVal = parseFloat(targetQuickFillSelection.value)
-          
-          // Find the closest available option value if the exact decimal isn't available
-          if (Array.isArray(q.options) && !q.options.some(o => o.value === targetVal)) {
-            const availableValues = q.options.map(o => o.value);
-            // Default to the nearest integer if decimal isn't available
-            targetVal = Math.round(targetVal)
-          }
-        }
-        targetResponses.value[q.id] = targetVal
-      })
-    }
-
-    const quickFillAndGo = () => {
-      quickFill()
-      if (questionnaire.value) {
-        currentQuestionIndex.value = questionnaire.value.questions.length - 1
-        showEmailForm.value = true
-      }
-    }
-
     onMounted(loadQuestionnaire)
     return { 
       loading, 
@@ -249,16 +175,11 @@ export default {
       userEmail, 
       submitting, 
       assessmentResults, 
-      quickFillSelection,
-      targetQuickFillSelection,
       selectOption, 
       selectTargetOption,
       nextQuestion, 
       previousQuestion, 
-      submitAssessment, 
-      quickFillSelection, 
-      quickFill, 
-      quickFillAndGo 
+      submitAssessment
     }
   }
 }
@@ -272,11 +193,7 @@ export default {
 .progress-bar { width: 100%; height: 8px; background-color: #e9ecef; border-radius: 4px; overflow: hidden; margin-bottom: 1rem; }
 .progress-fill { height: 100%; background: linear-gradient(90deg, #171C8F, #0072CE); transition: width 0.3s ease; }
 .progress-text { color: #666; font-size: 0.9rem; }
-.quick-fill-toolbar { display: flex; align-items: center; gap: 0.5rem; justify-content: flex-end; margin-top: 0.5rem; }
-.quick-fill-label { color: #555; }
-.quick-fill-select { padding: 0.4rem 0.6rem; border: 2px solid #e9ecef; border-radius: 6px; }
-.quick-fill-btn, .quick-fill-submit-btn { background-color: #0072CE; color: white; border: none; padding: 0.5rem 0.9rem; border-radius: 6px; font-weight: 600; cursor: pointer; }
-.quick-fill-btn:hover, .quick-fill-submit-btn:hover { background-color: #005ba3; }
+
 .question-card { background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 2rem; margin-bottom: 2rem; }
 .question-text { font-size: 1.5rem; color: #333; margin-bottom: 2rem; line-height: 1.4; }
 .options-container {
