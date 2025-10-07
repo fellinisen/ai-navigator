@@ -1,0 +1,33 @@
+/* Global styles */
+:root {
+  --primary-color: #171C8F;
+  --secondary-color: #0072CE;
+  --background-color: white;
+  --text-color: #333;
+  --text-light: #666;
+  --border-color: #e9ecef;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--background-color); color: var(--text-color); line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+.btn { display: inline-block; padding: 0.75rem 1.5rem; border: none; border-radius: var(--border-radius); font-weight: 600; text-decoration: none; cursor: pointer; transition: var(--transition); text-align: center; }
+.btn-primary { background-color: var(--primary-color); color: white; }
+.btn-primary:hover { background-color: #0f1570; }
+.btn-secondary { background-color: var(--secondary-color); color: white; }
+.btn-secondary:hover { background-color: #005ba3; }
+.btn-outline { background-color: transparent; border: 2px solid var(--primary-color); color: var(--primary-color); }
+.btn-outline:hover { background-color: var(--primary-color); color: white; }
+.card { background: white; border-radius: 12px; box-shadow: var(--shadow); overflow: hidden; transition: var(--transition); }
+.card:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); }
+.card-header { padding: 1.5rem; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; }
+.card-body { padding: 1.5rem; }
+.card-footer { padding: 0 1.5rem 1.5rem; }
+.form-group { margin-bottom: 1.5rem; }
+.form-label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-color); }
+.form-control { width: 100%; padding: 0.75rem; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 1rem; transition: var(--transition); }
+.form-control:focus { outline: none; border-color: var(--secondary-color); box-shadow: 0 0 0 3px rgba(0, 114, 206, 0.1); }
+@media (max-width: 768px) { .container { padding: 0 1rem; } .btn { width: 100%; margin-bottom: 0.5rem; } }
+@media (max-width: 480px) { html { font-size: 14px; } }

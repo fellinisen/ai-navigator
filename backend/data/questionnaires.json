@@ -1,0 +1,963 @@
+{
+  "ai_readiness": {
+    "id": "ai_readiness",
+    "title": "AI Readiness Assessment",
+    "description": "Evaluate your organization's readiness for AI implementation",
+    "questions": [
+      {
+        "id": "q_4",
+        "text": "Run trend scanning program",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to establish processes and mechanisms for monitoring market and industry trends regarding the use of AI (e.g., use cases, case studies).",
+        "tier1": "AI strategy",
+        "tier2": "Monitor and interpret AI trends",
+        "tier3": "Run trend scanning program",
+        "theme": "The ability to establish processes and mechanisms for monitoring market and industry trends regarding the use of AI (e.g., use cases, case studies)."
+      },
+      {
+        "id": "q_6",
+        "text": "Set vision",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to establish a long-term AI vision and ambition aligned with the organization’s business goals, needs and challenges.",
+        "tier1": "AI strategy",
+        "tier2": "Develop and rationalize AI ambition",
+        "tier3": "Set vision",
+        "theme": "The ability to establish a long-term AI vision and ambition aligned with the organization’s business goals, needs and challenges."
+      },
+      {
+        "id": "q_8",
+        "text": "Author strategy document",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to develop an AI strategy guide for AI adoption, expansion, and/or scale\nClarity of goals and metrics.",
+        "tier1": "AI strategy",
+        "tier2": "Develop and refine AI strategy",
+        "tier3": "Author strategy document",
+        "theme": "The ability to develop an AI strategy guide for AI adoption, expansion, and/or scale\nClarity of goals and metrics."
+      },
+      {
+        "id": "q_11",
+        "text": "Define AI roadmap",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to develop a high-level AI roadmap with short-term and long-term milestones spanning all sociotechnical aspects of AI.",
+        "tier1": "AI strategy",
+        "tier2": "Develop and coordinate AI strategic roadmap",
+        "tier3": "Define AI roadmap",
+        "theme": "The ability to develop a high-level AI roadmap with short-term and long-term milestones spanning all sociotechnical aspects of AI."
+      },
+      {
+        "id": "q_13",
+        "text": "Foster innovaton culture",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "Tha ability to foster an inquisitive culture that challenges the status quo, proactively seeks alternative viewpoints, and routinely pursues disruptive or contradictory thinking.\nIncentivise communities of practise.",
+        "tier1": "AI strategy",
+        "tier2": "Innovate/\nincubate AI",
+        "tier3": "Foster innovaton culture",
+        "theme": "Tha ability to foster an inquisitive culture that challenges the status quo, proactively seeks alternative viewpoints, and routinely pursues disruptive or contradictory thinking.\nIncentivise communities of practise."
+      },
+      {
+        "id": "q_15",
+        "text": "Assess and prioritize AI use cases",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "This capability involves systematically evaluating and ranking AI use cases based on dimensions such as risk, value, effort, complexity and feasibility. It ensures that resources are allocated to the most impactful and viable projects.",
+        "tier1": "AI value",
+        "tier2": "Develop and manage AI use-case portfolio",
+        "tier3": "Assess and prioritize AI use cases",
+        "theme": "This capability involves systematically evaluating and ranking AI use cases based on dimensions such as risk, value, effort, complexity and feasibility. It ensures that resources are allocated to the most impactful and viable projects."
+      },
+      {
+        "id": "q_17",
+        "text": "Develop AI business cases",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to consistently establish clear, compelling and evidence-based business cases for AI investments that get executive approval and funding.",
+        "tier1": "AI value",
+        "tier2": "Develop AI value propositions and business cases",
+        "tier3": "Develop AI business cases",
+        "theme": "The ability to consistently establish clear, compelling and evidence-based business cases for AI investments that get executive approval and funding."
+      },
+      {
+        "id": "q_21",
+        "text": "Identify and develop AI product opportunities",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to identify market dynamics and customer needs that represent opportunities best achieved using AI products. This includes the design of cohesive product ecosystems that ensure interoperability, scalability and strategic alignment across various AI solutions.",
+        "tier1": "AI value",
+        "tier2": "Develop AI product portfolios",
+        "tier3": "Identify and develop AI product opportunities",
+        "theme": "The ability to identify market dynamics and customer needs that represent opportunities best achieved using AI products. This includes the design of cohesive product ecosystems that ensure interoperability, scalability and strategic alignment across various AI solutions."
+      },
+      {
+        "id": "q_24",
+        "text": "Assess and monitor capabilities of ecosystem partners and prospects",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to evaluate and continuously monitor the skills, resources and performance of external partners within the AI ecosystem. This includes ensuring that these partners meet the organization's standards and can effectively contribute to achieving strategic AI objectives.",
+        "tier1": "AI organization",
+        "tier2": "Develop external partnerships and alliances for AI",
+        "tier3": "Assess and monitor capabilities of ecosystem partners and prospects",
+        "theme": "The ability to evaluate and continuously monitor the skills, resources and performance of external partners within the AI ecosystem. This includes ensuring that these partners meet the organization's standards and can effectively contribute to achieving strategic AI objectives."
+      },
+      {
+        "id": "q_26",
+        "text": "Stategize and balance insourcing and outsourcing for AI capabilities",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to select appropriate resources from both inside and outside the organization to develop AI products, propositions and use cases.",
+        "tier1": "AI organization",
+        "tier2": "Manage and balance internal and external ecosystem",
+        "tier3": "Stategize and balance insourcing and outsourcing for AI capabilities",
+        "theme": "The ability to select appropriate resources from both inside and outside the organization to develop AI products, propositions and use cases."
+      },
+      {
+        "id": "q_28",
+        "text": "Audit exsiting internal operating model and informal internal networks",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "This capability involves systematically reviewing and analyzing the current operating model and informal internal networks within the organization. It includes identifying inefficiencies, communication gaps and areas for improvement to optimize workflows and enhance collaboration.",
+        "tier1": "AI organization",
+        "tier2": "Evolve internal operating model",
+        "tier3": "Audit exsiting internal operating model and informal internal networks",
+        "theme": "This capability involves systematically reviewing and analyzing the current operating model and informal internal networks within the organization. It includes identifying inefficiencies, communication gaps and areas for improvement to optimize workflows and enhance collaboration."
+      },
+      {
+        "id": "q_31",
+        "text": "Execute change management and culture initiatives",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The abilty to develop change management competencies and to monitor their sucess by setting and tracking change management KPIs.",
+        "tier1": "AI people and culture",
+        "tier2": "Manage culture and change for/due to AI",
+        "tier3": "Execute change management and culture initiatives",
+        "theme": "The abilty to develop change management competencies and to monitor their sucess by setting and tracking change management KPIs."
+      },
+      {
+        "id": "q_34",
+        "text": "Predict AI-driven workforce implications",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "This capability involves forecasting how AI technologies will impact job roles, responsibilities and workforce dynamics. This includes analyzing potential shifts in labor demand and identifying areas where human skills will complement AI systems.",
+        "tier1": "AI people and culture",
+        "tier2": "Evolve roles\nand staffing for/due to AI",
+        "tier3": "Predict AI-driven workforce implications",
+        "theme": "This capability involves forecasting how AI technologies will impact job roles, responsibilities and workforce dynamics. This includes analyzing potential shifts in labor demand and identifying areas where human skills will complement AI systems."
+      },
+      {
+        "id": "q_38",
+        "text": "Implement AI training, upskilling and knowledge sharing",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "This capability focuses on designing and executing training programs to enhance the AI-related skills of the workforce. It includes facilitating continuous learning, upskilling and fostering a culture of knowledge sharing to keep pace with AI advancements.",
+        "tier1": "AI people and culture",
+        "tier2": "Deliver skills, training and literacy for AI",
+        "tier3": "Implement AI training, upskilling and knowledge sharing",
+        "theme": "This capability focuses on designing and executing training programs to enhance the AI-related skills of the workforce. It includes facilitating continuous learning, upskilling and fostering a culture of knowledge sharing to keep pace with AI advancements."
+      },
+      {
+        "id": "q_40",
+        "text": "Develop AI ethics frameworks, policies and controls",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to create, maintain, and enforce AI governance controls and policies by defining and refining ethics models, aligning with stakeholders and developing detailed ethical policy specifications for governance oversight.",
+        "tier1": "AI governance",
+        "tier2": "Create, maintain and evolve AI governance policies and controls",
+        "tier3": "Develop AI ethics frameworks, policies and controls",
+        "theme": "The ability to create, maintain, and enforce AI governance controls and policies by defining and refining ethics models, aligning with stakeholders and developing detailed ethical policy specifications for governance oversight."
+      },
+      {
+        "id": "q_45",
+        "text": "Develop and maintain teams for governance",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to build and sustain cross-functional governance teams that include both technology and business representatives to ensure effective oversight and collaboration within the organization.",
+        "tier1": "AI governance",
+        "tier2": "Develop AI governance operating models and teams",
+        "tier3": "Develop and maintain teams for governance",
+        "theme": "The ability to build and sustain cross-functional governance teams that include both technology and business representatives to ensure effective oversight and collaboration within the organization."
+      },
+      {
+        "id": "q_49",
+        "text": "Design, develop and deploy governance oversight systems",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The capability to design, develop and deploy governance oversight systems and processes in response to business policies and controls. This includes evolving enterprise architecture to support these systems, maintaining a register of AI systems requiring oversight and their interdependencies, instrumenting AI assets for observation, integrating with other operational systems (e.g., DevOps, SecOps, MLOps, DataOps), and coordinating deployment efforts.",
+        "tier1": "AI governance",
+        "tier2": "Engineer oversight systems and enforce policies",
+        "tier3": "Design, develop and deploy governance oversight systems",
+        "theme": "The capability to design, develop and deploy governance oversight systems and processes in response to business policies and controls. This includes evolving enterprise architecture to support these systems, maintaining a register of AI systems requiring oversight and their interdependencies, instrumenting AI assets for observation, integrating with other operational systems (e.g., DevOps, SecOps, MLOps, DataOps), and coordinating deployment efforts."
+      },
+      {
+        "id": "q_51",
+        "text": "Establish, evolve and optimize AI architecture and infrastructure",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "Develop and manage an end-to-end AI architecture to support the design, development and operation of AI models and solutions. This includes data sourcing and preparation, model training and calibration, model/solution evaluation/testing, model deployment, and model monitoring/management. Strategically manage and optimize AI platforms and enabling infrastructure (e.g., cloud ecosystem) for continuous performance, security monitoring and alignment with business requirements to ensure cost efficiency, speed and security.",
+        "tier1": "AI engineering",
+        "tier2": "Design and architect AI applications and systems",
+        "tier3": "Establish, evolve and optimize AI architecture and infrastructure",
+        "theme": "Develop and manage an end-to-end AI architecture to support the design, development and operation of AI models and solutions. This includes data sourcing and preparation, model training and calibration, model/solution evaluation/testing, model deployment, and model monitoring/management. Strategically manage and optimize AI platforms and enabling infrastructure (e.g., cloud ecosystem) for continuous performance, security monitoring and alignment with business requirements to ensure cost efficiency, speed and security."
+      },
+      {
+        "id": "q_55",
+        "text": "Design AI applications and systems",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to design AI systems and applications, starting with prototypes and POCs and moving into a production-ready design. The ability to provide frameworks and support to develop applications that meet long-term business objectives. Provide mechanisms and governance for go-nogo (stop/refine/scale).",
+        "tier1": "AI engineering",
+        "tier2": "Develop, test and integrate AI applications and systems",
+        "tier3": "Design AI applications and systems",
+        "theme": "The ability to design AI systems and applications, starting with prototypes and POCs and moving into a production-ready design. The ability to provide frameworks and support to develop applications that meet long-term business objectives. Provide mechanisms and governance for go-nogo (stop/refine/scale)."
+      },
+      {
+        "id": "q_62",
+        "text": "Deploy AI systems",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to create deployment strategies (real-time/batch, on-premises/cloud) and environments to support deployment of AI systems.",
+        "tier1": "AI engineering",
+        "tier2": "Deploy, operate and scale AI systems",
+        "tier3": "Deploy AI systems",
+        "theme": "The ability to create deployment strategies (real-time/batch, on-premises/cloud) and environments to support deployment of AI systems."
+      },
+      {
+        "id": "q_65",
+        "text": "Develop AI application portfolio",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to determine the impacts and opportunities of AI on the current application portfolio and to develop strategic roadmaps to evolve the portfolio for/due to AI.",
+        "tier1": "AI engineering",
+        "tier2": "Manage project, platform and application portfolios",
+        "tier3": "Develop AI application portfolio",
+        "theme": "The ability to determine the impacts and opportunities of AI on the current application portfolio and to develop strategic roadmaps to evolve the portfolio for/due to AI."
+      },
+      {
+        "id": "q_69",
+        "text": "Build AI product and engineering teams",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to build product and engineering teams for AI systems that combine AI, applications, I&O, security and other dimensions into a value stream delivery team.",
+        "tier1": "AI engineering",
+        "tier2": "Develop and manage AI engineering teams",
+        "tier3": "Build AI product and engineering teams",
+        "theme": "The ability to build product and engineering teams for AI systems that combine AI, applications, I&O, security and other dimensions into a value stream delivery team."
+      },
+      {
+        "id": "q_72",
+        "text": "Acquire data for AI",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to acquire data for AI projects including sourcing, synthetic data creation and collection (webscraping, sensor, API).",
+        "tier1": "AI data",
+        "tier2": "Acquire and prepare AI data",
+        "tier3": "Acquire data for AI",
+        "theme": "The ability to acquire data for AI projects including sourcing, synthetic data creation and collection (webscraping, sensor, API)."
+      },
+      {
+        "id": "q_76",
+        "text": "Develop and enforce AI data governance controls, policies and processes",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to develop and implement comprehensive data governance frameworks and policies. Defining roles, responsibilities and accountability for data governance within the organization. Regularly reviewing and updating governance policies to adapt to evolving regulations and technological advancements.",
+        "tier1": "AI data",
+        "tier2": "Manage and govern AI Data",
+        "tier3": "Develop and enforce AI data governance controls, policies and processes",
+        "theme": "The ability to develop and implement comprehensive data governance frameworks and policies. Defining roles, responsibilities and accountability for data governance within the organization. Regularly reviewing and updating governance policies to adapt to evolving regulations and technological advancements."
+      },
+      {
+        "id": "q_82",
+        "text": "Measure effectiveness of data in AI use cases",
+        "type": "multiple_choice",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "weight": 1.0,
+        "category": "The ability to evaluate how well data supports AI applications and their outcomes.",
+        "tier1": "AI data",
+        "tier2": "Build AI data utilisation and insights",
+        "tier3": "Measure effectiveness of data in AI use cases",
+        "theme": "The ability to evaluate how well data supports AI applications and their outcomes."
+      }
+    ],
+    "targets": {
+      "tier2": {},
+      "tier1": {}
+    }
+  }
+}

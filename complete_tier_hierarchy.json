@@ -1,0 +1,471 @@
+{
+  "Develop and execute the AI strategy": {
+    "Monitor and interpret AI trends": [
+      {
+        "row": 4,
+        "tier3_capability": "Run trend scanning program",
+        "tier3_description": "The ability to establish processes and mechanisms for monitoring market and industry trends regarding the use of AI (e.g., use cases, case studies)."
+      },
+      {
+        "row": 5,
+        "tier3_capability": "Analyze impact of trends on the organization",
+        "tier3_description": "The ability to establish the high-level impacts of AI trends on AI feasibility for the organization."
+      }
+    ],
+    "Develop and rationalize AI ambition": [
+      {
+        "row": 6,
+        "tier3_capability": "Set vision",
+        "tier3_description": "The ability to establish a long-term AI vision and ambition aligned with the organization’s business goals, needs and challenges."
+      },
+      {
+        "row": 7,
+        "tier3_capability": "Measure organizational readiness for AI",
+        "tier3_description": "The ability to determine the readiness and maturity of the organization (including skills, technology, organization, legal) to adopt AI."
+      }
+    ],
+    "Develop and refine AI strategy": [
+      {
+        "row": 8,
+        "tier3_capability": "Author strategy document",
+        "tier3_description": "The ability to develop an AI strategy guide for AI adoption, expansion, and/or scale\nClarity of goals and metrics."
+      },
+      {
+        "row": 9,
+        "tier3_capability": "Align strategy",
+        "tier3_description": "The ability to co-ordinate AI strategies with both executive strategies and bottom-up innovation by business units."
+      },
+      {
+        "row": 10,
+        "tier3_capability": "High-level ecosystem design",
+        "tier3_description": "The ability to holistically shape and seed an ecosytem via acquisition or partnership (internally or externally) to support AI strategies."
+      }
+    ],
+    "Develop and coordinate AI strategic roadmap": [
+      {
+        "row": 11,
+        "tier3_capability": "Define AI roadmap",
+        "tier3_description": "The ability to develop a high-level AI roadmap with short-term and long-term milestones spanning all sociotechnical aspects of AI."
+      },
+      {
+        "row": 12,
+        "tier3_capability": "Align AI roadmap",
+        "tier3_description": "The ability to co-ordinate AI roadmaps with stakeholders."
+      }
+    ],
+    "Innovate/\nincubate AI": [
+      {
+        "row": 13,
+        "tier3_capability": "Foster innovaton culture",
+        "tier3_description": "Tha ability to foster an inquisitive culture that challenges the status quo, proactively seeks alternative viewpoints, and routinely pursues disruptive or contradictory thinking.\nIncentivise communities of practise."
+      },
+      {
+        "row": 14,
+        "tier3_capability": "Identify and scale ideas and experiments",
+        "tier3_description": "The abilty to systematically identify, evaluate, manage and nurture innovative ideas from across the organization, ensuring the most promising concepts are developed and scaled effectively.\nThe ability to combine a culture of innovation with structured processes for idea management."
+      }
+    ]
+  },
+  "Manage AI use cases and portfolios": {
+    "Develop and manage AI use-case portfolio": [
+      {
+        "row": 15,
+        "tier3_capability": "Assess and prioritize AI use cases",
+        "tier3_description": "This capability involves systematically evaluating and ranking AI use cases based on dimensions such as risk, value, effort, complexity and feasibility. It ensures that resources are allocated to the most impactful and viable projects."
+      },
+      {
+        "row": 16,
+        "tier3_capability": "Align AI use-case portfolio between business and IT",
+        "tier3_description": "This capability focuses on ensuring that the AI use cases and the overall portfolio are aligned with both business objectives and IT capabilities. It involves continuous collaboration between business and IT to balance risk and feasibility, ensuring strategic coherence and operational synergy."
+      }
+    ],
+    "Develop AI value propositions and business cases": [
+      {
+        "row": 17,
+        "tier3_capability": "Develop AI business cases",
+        "tier3_description": "The ability to consistently establish clear, compelling and evidence-based business cases for AI investments that get executive approval and funding."
+      },
+      {
+        "row": 18,
+        "tier3_capability": "Monitor best practices for AI portfolios",
+        "tier3_description": "The ability to track and analyze industry trends and best practices in AI portfolio management to identify opportunities for improvement."
+      },
+      {
+        "row": 19,
+        "tier3_capability": "Measure AI use-case portfolio performance",
+        "tier3_description": "The ability to use analytics, peformance metrics tracking and outcome evaluation to assess the effectiveness and ROI of AI implementations."
+      },
+      {
+        "row": 20,
+        "tier3_capability": "Manage AI value propositions",
+        "tier3_description": "The ability to ensure AI initiatives align with strategic objectives, deliver tangible business value and demonstrate a positive return on investment."
+      }
+    ],
+    "Develop AI product portfolios": [
+      {
+        "row": 21,
+        "tier3_capability": "Identify and develop AI product opportunities",
+        "tier3_description": "The ability to identify market dynamics and customer needs that represent opportunities best achieved using AI products. This includes the design of cohesive product ecosystems that ensure interoperability, scalability and strategic alignment across various AI solutions."
+      },
+      {
+        "row": 22,
+        "tier3_capability": "Manage AI product portfolio and stakeholder engagement",
+        "tier3_description": "The abilty to manage the AI product portfolio, including assessing and improving product strategies, roadmaps, features and processes, in response to demand and market needs. This also encompasses presenting product opportunities to stakeholders and prospects to obtain funding and investment, as well as communicating progress, risks and benefits to stakeholders."
+      },
+      {
+        "row": 23,
+        "tier3_capability": "Secure funding, investment and communication for AI products",
+        "tier3_description": "The ability to obtain funding and investment for AI products by presenting opportunities to stakeholders and prospects. This also includes communication and change management to profile the AI product portfolio to stakeholders and investors, thus ensuring transparency and alignment."
+      }
+    ]
+  },
+  "Evolve AI ecosystem and operating models": {
+    "Develop external partnerships and alliances for AI": [
+      {
+        "row": 24,
+        "tier3_capability": "Assess and monitor capabilities of ecosystem partners and prospects",
+        "tier3_description": "The ability to evaluate and continuously monitor the skills, resources and performance of external partners within the AI ecosystem. This includes ensuring that these partners meet the organization's standards and can effectively contribute to achieving strategic AI objectives."
+      },
+      {
+        "row": 25,
+        "tier3_capability": "Develop joint initiatives and strenthen collaboration with external partners",
+        "tier3_description": "The ability to create and manage collaborative projects with external partners to leverage combined expertise and resources. This includes fostering strong, mutually beneficial relationships to drive innovation, share knowledge and achieve common AI-driven goals."
+      }
+    ],
+    "Manage and balance internal and external ecosystem": [
+      {
+        "row": 26,
+        "tier3_capability": "Stategize and balance insourcing and outsourcing for AI capabilities",
+        "tier3_description": "The ability to select appropriate resources from both inside and outside the organization to develop AI products, propositions and use cases."
+      },
+      {
+        "row": 27,
+        "tier3_capability": "Assess and mitigate continuity risks and dependencies across external AI ecosystem",
+        "tier3_description": "The ability to evaluate potential risks and dependencies associated with external AI vendors, partners and technologies. This includes developing strategies to mitigate these risks, ensuring business continuity, reducing lock-in and maintaining the integrity and reliability of AI-driven operations."
+      }
+    ],
+    "Evolve internal operating model": [
+      {
+        "row": 28,
+        "tier3_capability": "Audit exsiting internal operating model and informal internal networks",
+        "tier3_description": "This capability involves systematically reviewing and analyzing the current operating model and informal internal networks within the organization. It includes identifying inefficiencies, communication gaps and areas for improvement to optimize workflows and enhance collaboration."
+      },
+      {
+        "row": 29,
+        "tier3_capability": "Design and evolve internal operating models for/due to AI",
+        "tier3_description": "The ability to design target operating models to meet business objectives as well as the analysis of tactics needed to shift to such a model from the current operational model."
+      },
+      {
+        "row": 30,
+        "tier3_capability": "Create and maintain the internal AI organization",
+        "tier3_description": "The ability to create communities of excellence (CoEs) and networks of expertise within the organization and manage ways of working."
+      }
+    ]
+  },
+  "Foster AI knowledge and culture": {
+    "Manage culture and change for/due to AI": [
+      {
+        "row": 31,
+        "tier3_capability": "Execute change management and culture initiatives",
+        "tier3_description": "The abilty to develop change management competencies and to monitor their sucess by setting and tracking change management KPIs."
+      },
+      {
+        "row": 32,
+        "tier3_capability": "Communicate AI stance, vision and initiatives (internally and externally)",
+        "tier3_description": "The ability to communicate enterprise positions and decisions regarding the development and governance of AI including both internal and external parties."
+      },
+      {
+        "row": 33,
+        "tier3_capability": "Establish AI culture and change strategy",
+        "tier3_description": "The ability to create a supportive organizational culture that embraces AI technologies and fosters a mindset of continuous innovation and adaptation. This includes developing and implementing change management strategies to ensure smooth transitions, employee buy-in and alignment with AI-driven goals."
+      }
+    ],
+    "Evolve roles\nand staffing for/due to AI": [
+      {
+        "row": 34,
+        "tier3_capability": "Predict AI-driven workforce implications",
+        "tier3_description": "This capability involves forecasting how AI technologies will impact job roles, responsibilities and workforce dynamics. This includes analyzing potential shifts in labor demand and identifying areas where human skills will complement AI systems."
+      },
+      {
+        "row": 35,
+        "tier3_capability": "Understand AI talent skills and gaps",
+        "tier3_description": "This capability focuses on assessing the current skill sets of the workforce in relation to AI technologies and identifying gaps that need to be addressed. This includes evaluating both technical and soft skills required for effective AI integration."
+      },
+      {
+        "row": 36,
+        "tier3_capability": "Conduct AI workforce planning and adaption",
+        "tier3_description": "The ability to develop strategic plans to align the workforce with AI-driven transformations, thus ensuring that the organization can adapt to technological advancements. This includes creating roadmaps for role evolution, reskilling and workforce restructuring."
+      },
+      {
+        "row": 37,
+        "tier3_capability": "Discover and recruit AI talent",
+        "tier3_description": "The ability to identify and attract individuals with the necessary expertise in AI to meet organizational needs. This includes leveraging various recruitment channels, partnerships and talent pools to find the best candidates."
+      }
+    ],
+    "Deliver skills, training and literacy for AI": [
+      {
+        "row": 38,
+        "tier3_capability": "Implement AI training, upskilling and knowledge sharing",
+        "tier3_description": "This capability focuses on designing and executing training programs to enhance the AI-related skills of the workforce. It includes facilitating continuous learning, upskilling and fostering a culture of knowledge sharing to keep pace with AI advancements."
+      },
+      {
+        "row": 39,
+        "tier3_capability": "Measure effectiveness of training",
+        "tier3_description": "This capability involves evaluating the impact and outcomes of AI training programs to ensure they meet organizational goals. It includes using metrics and feedback to assess improvements in skills, performance and overall productivity."
+      }
+    ]
+  },
+  "Govern AI and manage risks": {
+    "Create, maintain and evolve AI governance policies and controls": [
+      {
+        "row": 40,
+        "tier3_capability": "Develop AI ethics frameworks, policies and controls",
+        "tier3_description": "The ability to create, maintain, and enforce AI governance controls and policies by defining and refining ethics models, aligning with stakeholders and developing detailed ethical policy specifications for governance oversight."
+      },
+      {
+        "row": 41,
+        "tier3_capability": "Develop AI risk frameworks, policies and controls",
+        "tier3_description": "The capability to identify AI risks, define mitigations, develop risk policy specifications for governance oversight, and monitor and adjust policies using a coordinated dashboard driven by technical KPIs."
+      },
+      {
+        "row": 42,
+        "tier3_capability": "Develop AI security and safety frameworks, policies and controls",
+        "tier3_description": "The capability to monitor trends and threats in AI security and safety for models, applications and agents. This includes developing comprehensive policies for governance oversight; ensuring data protection, access management, data classification and AI workload protection; and implementing safety protocols for the safe deployment and operation of AI systems."
+      },
+      {
+        "row": 43,
+        "tier3_capability": "Develop legal and regulatory frameworks, policies and controls",
+        "tier3_description": "The capability to monitor the legal and regulatory landscape, develop strategies, and manage resolutions. The ability to communicate legal and regulatory policies and controls for development as process, code or models. The ability to connect technical KPIs from systems to business-centric KPIs and dashboards."
+      },
+      {
+        "row": 44,
+        "tier3_capability": "Develop sustainable AI frameworks, polciies and controls",
+        "tier3_description": "The ability to ensure that AI is used in a sustainable way from a cost and societal standpoint as well as the use of AI technologies in ensuring broader enterprise sustainability intiatives."
+      }
+    ],
+    "Develop AI governance operating models and teams": [
+      {
+        "row": 45,
+        "tier3_capability": "Develop and maintain teams for governance",
+        "tier3_description": "The ability to build and sustain cross-functional governance teams that include both technology and business representatives to ensure effective oversight and collaboration within the organization."
+      },
+      {
+        "row": 46,
+        "tier3_capability": "Identify and manage governance decision rights and stakeholders",
+        "tier3_description": "The ability to establish clear decision-making processes and authority structures, identify and engage key stakeholders, coordinate expectations, and manage potential conflicts, thus ensuring transparency and accountability."
+      },
+      {
+        "row": 47,
+        "tier3_capability": "Manage and communicate governance mandate and scope",
+        "tier3_description": "The ability to define the purpose, objectives and boundaries of governance initiatives; develop a comprehensive mandate outlining scope and responsibilities; and effectively communicate this to all relevant stakeholders."
+      },
+      {
+        "row": 48,
+        "tier3_capability": "Monitor and enforce compliance with governance requirements",
+        "tier3_description": "The establishment of consistent mechanisms to ensure adherence to governance policies, handle exceptions and escalate issues to ensure compliance with established governance requirements."
+      }
+    ],
+    "Engineer oversight systems and enforce policies": [
+      {
+        "row": 49,
+        "tier3_capability": "Design, develop and deploy governance oversight systems",
+        "tier3_description": "The capability to design, develop and deploy governance oversight systems and processes in response to business policies and controls. This includes evolving enterprise architecture to support these systems, maintaining a register of AI systems requiring oversight and their interdependencies, instrumenting AI assets for observation, integrating with other operational systems (e.g., DevOps, SecOps, MLOps, DataOps), and coordinating deployment efforts."
+      },
+      {
+        "row": 50,
+        "tier3_capability": "Perform continuous AI governance, oversight and assurance",
+        "tier3_description": "The capability to monitor and enforce runtime policies by overseeing data, models and AI applications; ensuring model security; detecting anomalies; maintaining responsible AI filtering; securing AI applications; managing compliance; and observing AI agent activities and aligning them with intentions. Monitoring AI systems for data patterns, conducting security testing, validating risk and trust controls, managing compliance reporting, and assessing the human impact of governance oversight."
+      }
+    ]
+  },
+  "Engineer and operate AI systems and platforms": {
+    "Design and architect AI applications and systems": [
+      {
+        "row": 51,
+        "tier3_capability": "Establish, evolve and optimize AI architecture and infrastructure",
+        "tier3_description": "Develop and manage an end-to-end AI architecture to support the design, development and operation of AI models and solutions. This includes data sourcing and preparation, model training and calibration, model/solution evaluation/testing, model deployment, and model monitoring/management. Strategically manage and optimize AI platforms and enabling infrastructure (e.g., cloud ecosystem) for continuous performance, security monitoring and alignment with business requirements to ensure cost efficiency, speed and security."
+      },
+      {
+        "row": 52,
+        "tier3_capability": "Deliver compelling user experiences for AI systems users",
+        "tier3_description": "The ability to capture user experience (UX) goals, define user journey maps, and identify where and how AI improves the user journey for customers, employees and citizens."
+      },
+      {
+        "row": 53,
+        "tier3_capability": "Assess and design integration approaches for AI applications and systems",
+        "tier3_description": "The ability to evaluate the compatibility and interoperability of AI components and applications with existing systems and design integration strategies to ensure seamless data flow and functionality."
+      },
+      {
+        "row": 54,
+        "tier3_capability": "Develop build vs. buy rationales and rules",
+        "tier3_description": "The ability to develop build vs. buy rationales and rules for procurement and design of AI sytems across the organization."
+      }
+    ],
+    "Develop, test and integrate AI applications and systems": [
+      {
+        "row": 55,
+        "tier3_capability": "Design AI applications and systems",
+        "tier3_description": "The ability to design AI systems and applications, starting with prototypes and POCs and moving into a production-ready design. The ability to provide frameworks and support to develop applications that meet long-term business objectives. Provide mechanisms and governance for go-nogo (stop/refine/scale)."
+      },
+      {
+        "row": 56,
+        "tier3_capability": "Build AI-powered applications and systems",
+        "tier3_description": "The ability to develop AI-powered applications, train AI models and build experiences that delight users. The ability to integrate these application components into user-facing applications, test that they meet user expectations and prepare them for deployment."
+      },
+      {
+        "row": 57,
+        "tier3_capability": "Manage AI development assets",
+        "tier3_description": "The ability to manage assets relating to developing AI solutions such as code libraries, feature stores, model portfolios, solution documentation, prompt libraries and AI design patterns."
+      },
+      {
+        "row": 58,
+        "tier3_capability": "Buy AI systems, platforms, applications and tools",
+        "tier3_description": "The ability to identify, evaluate, contract with, and manage the ongoing execution and performance of vendors/solutions."
+      },
+      {
+        "row": 59,
+        "tier3_capability": "Test and compare underlying AI technologies, techniques and practices",
+        "tier3_description": "The ability to benchmark different AI models, algorithms, frameworks and AI practises to determine their effectiveness, accuracy and scalability and, as a result, suitability for specific tasks."
+      },
+      {
+        "row": 60,
+        "tier3_capability": "Test AI-enabled applications and systems",
+        "tier3_description": "The ability to assess the overall functionality, usability and performance of applications and systems that incorporate AI technologies. This includes end-to-end testing, user acceptance testing, and performance evaluations to ensure seamless integration and reliable operation in real-world scenarios."
+      },
+      {
+        "row": 61,
+        "tier3_capability": "Manage AI technical debt",
+        "tier3_description": "Develop and implement strategies to identify, monitor and mitigate technical debt in AI systems, balancing value models and cost considerations to ensure long-term maintainability and scalability. Foster a culture of continuous improvement by addressing opportunities and risks associated with technical debt and optimizing code, models and infrastructure to maximize value and minimize performance degradation."
+      }
+    ],
+    "Deploy, operate and scale AI systems": [
+      {
+        "row": 62,
+        "tier3_capability": "Deploy AI systems",
+        "tier3_description": "The ability to create deployment strategies (real-time/batch, on-premises/cloud) and environments to support deployment of AI systems."
+      },
+      {
+        "row": 63,
+        "tier3_capability": "Operationalize AI systems",
+        "tier3_description": "The ability to operate AI systems in line with agreed service levels, perform pro-active maintenance, and apply patches and updates."
+      },
+      {
+        "row": 64,
+        "tier3_capability": "Scale AI systems",
+        "tier3_description": "The ability to scale AI systems through methods like capability/infrastructure planning and to develop methods for horizontal and vertical scaling."
+      }
+    ],
+    "Manage project, platform and application portfolios": [
+      {
+        "row": 65,
+        "tier3_capability": "Develop AI application portfolio",
+        "tier3_description": "The ability to determine the impacts and opportunities of AI on the current application portfolio and to develop strategic roadmaps to evolve the portfolio for/due to AI."
+      },
+      {
+        "row": 66,
+        "tier3_capability": "Manage and maximize value streams",
+        "tier3_description": "The ability to establish an end-to-end process of optimizing the flow of value from the initial concept through to the delivery of AI-driven products and services. This involves a holistic approach to managing and improving the entire life cycle of AI engineering projects and ensuring that each step adds value and aligns with business goals."
+      },
+      {
+        "row": 67,
+        "tier3_capability": "Manage and present platforms and tools for AI engineering",
+        "tier3_description": "The ability to manage tools and platforms used for AI engineering covering dimensions such as tool compatibility, update management and regression testing, along with ensuring optimal performance. The ability to present and deliver a compelling self service \"platform as a product\" experience to professional and citizen develoeprs."
+      },
+      {
+        "row": 68,
+        "tier3_capability": "Manage AI project portfolio",
+        "tier3_description": "The ability to obtain and manage funding and investment for AI projects and to manage stakeholders."
+      }
+    ],
+    "Develop and manage AI engineering teams": [
+      {
+        "row": 69,
+        "tier3_capability": "Build AI product and engineering teams",
+        "tier3_description": "The ability to build product and engineering teams for AI systems that combine AI, applications, I&O, security and other dimensions into a value stream delivery team."
+      },
+      {
+        "row": 70,
+        "tier3_capability": "Allocate staff to AI engineering initiaitves",
+        "tier3_description": "The ability to manage a pool of AI engineering staff and allocate them to projects based on business/stakeholder and internal engineering demands. Allocation of staff can be across architecture, design, development, operations of systems and oversight systems."
+      },
+      {
+        "row": 71,
+        "tier3_capability": "Improve the effectiveness and experience of AI engineering staff and teams",
+        "tier3_description": "The ability to measure the effectiveness of AI Staff and Teams to determine dimensions like effectiveness and customer value delivery. The ability to identify opportunities for improvement and deliver on that improvement. The ability to measure developer experience for AI engineering teams."
+      }
+    ]
+  },
+  "Prepare and manage data for AI": {
+    "Acquire and prepare AI data": [
+      {
+        "row": 72,
+        "tier3_capability": "Acquire data for AI",
+        "tier3_description": "The ability to acquire data for AI projects including sourcing, synthetic data creation and collection (webscraping, sensor, API)."
+      },
+      {
+        "row": 73,
+        "tier3_capability": "Data preparation and feature engineering",
+        "tier3_description": "The ability to prepare data for analysis or use by AI by cleaning, transforming and structuring it and to create new features from existing data to improve model performance."
+      },
+      {
+        "row": 74,
+        "tier3_capability": "Data integration and operationalization for AI",
+        "tier3_description": "The ability to integrate data from various sources, including internal and external databases and content, to create a unified view. The use of data integration tools to automate data ingestion and transformation."
+      },
+      {
+        "row": 75,
+        "tier3_capability": "Access data products and data marketplaces/exchanges",
+        "tier3_description": "The ability to provide secure access to data products and marketplaces."
+      }
+    ],
+    "Manage and govern AI Data": [
+      {
+        "row": 76,
+        "tier3_capability": "Develop and enforce AI data governance controls, policies and processes",
+        "tier3_description": "The ability to develop and implement comprehensive data governance frameworks and policies. Defining roles, responsibilities and accountability for data governance within the organization. Regularly reviewing and updating governance policies to adapt to evolving regulations and technological advancements."
+      },
+      {
+        "row": 77,
+        "tier3_capability": "Provide AI data lineage and traceability",
+        "tier3_description": "The ability to track the origin, movement and transformation of AI data throughout its life cycle. Ensuring that data provenance is well-documented and auditable to facilitiate accountability and traceability in data handling and AI model development."
+      },
+      {
+        "row": 78,
+        "tier3_capability": "Deliver data quality and integrity for AI",
+        "tier3_description": "The ability to ensure that data is accurate, complete, consistent and reliable for AI use in order to prevent errors, biases and inconsistencies in AI models and outputs."
+      },
+      {
+        "row": 79,
+        "tier3_capability": "Develop and provide metadata and semantic capabilities to the business",
+        "tier3_description": "The ability to provide metadata and semantic capabilities and services to define categories, rules, concepts and the relationships between them. Further to connect domain experts to metadata/semantic development and empower them to develop and curate it."
+      },
+      {
+        "row": 80,
+        "tier3_capability": "Observe data characteristics and behaviour",
+        "tier3_description": "The ability to provide insights into the health, performance and behavior of data systems and pipelines for AI in order to identify and diagnose data quality issues, performance bottlenecks and anomalies."
+      },
+      {
+        "row": 81,
+        "tier3_capability": "Assure security and privacy for AI data",
+        "tier3_description": "The ability to implement robust security measures to protect data from unauthorized access, breaches and misuse. This include compliance with relevant data privacy regulations (e.g., GDPR, CCPA)."
+      }
+    ],
+    "Build AI data utilisation and insights": [
+      {
+        "row": 82,
+        "tier3_capability": "Measure effectiveness of data in AI use cases",
+        "tier3_description": "The ability to evaluate how well data supports AI applications and their outcomes."
+      },
+      {
+        "row": 83,
+        "tier3_capability": "Provide data analytics for AI",
+        "tier3_description": "The ability to utilize data analytics techniques to extract insights and patterns from data to inform AI model development and decision-making."
+      },
+      {
+        "row": 84,
+        "tier3_capability": "Enable AI data visualisations",
+        "tier3_description": "The ability to create out of the box (OOTB) and custom visual representations of data to enhance understanding, identify patterns and communicate findings effectively."
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "Develop and execute the AI strategy": {
+    "Monitor and interpret AI trends": [
+      {
+        "row": 4,
+        "tier3_capability": "Run trend scanning program",
+        "tier3_description": "The ability to establish processes and mechanisms for monitoring market and industry trends regarding the use of AI (e.g., use cases, case studies)."
+      }
+    ]
+  },
+  "Manage AI use cases and portfolios": {
+    "Develop and manage AI use-case portfolio": [
+      {
+        "row": 15,
+        "tier3_capability": "Assess and prioritize AI use cases",
+        "tier3_description": "This capability involves systematically evaluating and ranking AI use cases based on dimensions such as risk, value, effort, complexity and feasibility. It ensures that resources are allocated to the most impactful and viable projects."
+      }
+    ]
+  },
+  "Evolve AI ecosystem and operating models": {
+    "Develop external partnerships and alliances for AI": [
+      {
+        "row": 24,
+        "tier3_capability": "Assess and monitor capabilities of ecosystem partners and prospects",
+        "tier3_description": "The ability to evaluate and continuously monitor the skills, resources and performance of external partners within the AI ecosystem. This includes ensuring that these partners meet the organization's standards and can effectively contribute to achieving strategic AI objectives."
+      }
+    ]
+  },
+  "Foster AI knowledge and culture": {
+    "Manage culture and change for/due to AI": [
+      {
+        "row": 31,
+        "tier3_capability": "Execute change management and culture initiatives",
+        "tier3_description": "The abilty to develop change management competencies and to monitor their sucess by setting and tracking change management KPIs."
+      }
+    ]
+  },
+  "Govern AI and manage risks": {
+    "Create, maintain and evolve AI governance policies and controls": [
+      {
+        "row": 40,
+        "tier3_capability": "Develop AI ethics frameworks, policies and controls",
+        "tier3_description": "The ability to create, maintain, and enforce AI governance controls and policies by defining and refining ethics models, aligning with stakeholders and developing detailed ethical policy specifications for governance oversight."
+      }
+    ]
+  },
+  "Engineer and operate AI systems and platforms": {
+    "Design and architect AI applications and systems": [
+      {
+        "row": 51,
+        "tier3_capability": "Establish, evolve and optimize AI architecture and infrastructure",
+        "tier3_description": "Develop and manage an end-to-end AI architecture to support the design, development and operation of AI models and solutions. This includes data sourcing and preparation, model training and calibration, model/solution evaluation/testing, model deployment, and model monitoring/management. Strategically manage and optimize AI platforms and enabling infrastructure (e.g., cloud ecosystem) for continuous performance, security monitoring and alignment with business requirements to ensure cost efficiency, speed and security."
+      }
+    ]
+  },
+  "Prepare and manage data for AI": {
+    "Acquire and prepare AI data": [
+      {
+        "row": 72,
+        "tier3_capability": "Acquire data for AI",
+        "tier3_description": "The ability to acquire data for AI projects including sourcing, synthetic data creation and collection (webscraping, sensor, API)."
+      }
+    ]
+  }
+}

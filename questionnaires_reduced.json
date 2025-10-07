@@ -1,0 +1,265 @@
+{
+  "ai_readiness": {
+    "id": "ai_readiness",
+    "title": "AI Readiness Assessment",
+    "description": "Evaluate your organization's readiness for AI implementation",
+    "questions": [
+      {
+        "id": "q_1",
+        "text": "Monitor and interpret AI trends",
+        "type": "scale",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "tier1": null,
+        "tier2": "Develop and execute the AI strategy",
+        "tier3": "Monitor and interpret AI trends",
+        "theme": "Run trend scanning program"
+      },
+      {
+        "id": "q_2",
+        "text": "Develop and manage AI use-case portfolio",
+        "type": "scale",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "tier1": null,
+        "tier2": "Manage AI use cases and portfolios",
+        "tier3": "Develop and manage AI use-case portfolio",
+        "theme": "Assess and prioritize AI use cases"
+      },
+      {
+        "id": "q_3",
+        "text": "Develop external partnerships and alliances for AI",
+        "type": "scale",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "tier1": null,
+        "tier2": "Evolve AI ecosystem and operating models",
+        "tier3": "Develop external partnerships and alliances for AI",
+        "theme": "Assess and monitor capabilities of ecosystem partners and prospects"
+      },
+      {
+        "id": "q_4",
+        "text": "Manage culture and change for/due to AI",
+        "type": "scale",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "tier1": null,
+        "tier2": "Foster AI knowledge and culture",
+        "tier3": "Manage culture and change for/due to AI",
+        "theme": "Execute change management and culture initiatives"
+      },
+      {
+        "id": "q_5",
+        "text": "Create, maintain and evolve AI governance policies and controls",
+        "type": "scale",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "tier1": null,
+        "tier2": "Govern AI and manage risks",
+        "tier3": "Create, maintain and evolve AI governance policies and controls",
+        "theme": "Develop AI ethics frameworks, policies and controls"
+      },
+      {
+        "id": "q_6",
+        "text": "Design and architect AI applications and systems",
+        "type": "scale",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "tier1": null,
+        "tier2": "Engineer and operate AI systems and platforms",
+        "tier3": "Design and architect AI applications and systems",
+        "theme": "Establish, evolve and optimize AI architecture and infrastructure"
+      },
+      {
+        "id": "q_7",
+        "text": "Acquire and prepare AI data",
+        "type": "scale",
+        "options": [
+          {
+            "value": 1,
+            "text": "Does not exist",
+            "score": 1.0
+          },
+          {
+            "value": 2,
+            "text": "Partially exists",
+            "score": 2.0
+          },
+          {
+            "value": 3,
+            "text": "Fully exists",
+            "score": 3.0
+          },
+          {
+            "value": 4,
+            "text": "Fully exists and optimized",
+            "score": 4.0
+          },
+          {
+            "value": 5,
+            "text": "Fully exists and adaptive",
+            "score": 5.0
+          }
+        ],
+        "tier1": null,
+        "tier2": "Prepare and manage data for AI",
+        "tier3": "Acquire and prepare AI data",
+        "theme": "Acquire data for AI"
+      }
+    ],
+    "targets": {
+      "tier2": {},
+      "tier1": {}
+    }
+  }
+}

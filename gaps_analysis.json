@@ -1,0 +1,204 @@
+{
+  "tier1_categories": {
+    "AI strategy": {
+      "avg_maturity": "",
+      "target_maturity": "",
+      "gap": "",
+      "tier2_subcategories": [
+        {
+          "name": "Monitor and interpret AI trends",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Develop and rationalize AI ambition",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Develop and refine AI strategy",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Develop and coordinate AI strategic roadmap",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Innovate/\nincubate AI",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        }
+      ]
+    },
+    "AI value": {
+      "avg_maturity": "",
+      "target_maturity": "",
+      "gap": "",
+      "tier2_subcategories": [
+        {
+          "name": "Develop and manage AI use-case portfolio",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Develop AI value propositions and business cases",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Develop AI product portfolios",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        }
+      ]
+    },
+    "AI organization": {
+      "avg_maturity": "",
+      "target_maturity": "",
+      "gap": "",
+      "tier2_subcategories": [
+        {
+          "name": "Develop external partnerships and alliances for AI",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Manage and balance internal and external ecosystem",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Evolve internal operating model",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        }
+      ]
+    },
+    "AI people and culture": {
+      "avg_maturity": "",
+      "target_maturity": "",
+      "gap": "",
+      "tier2_subcategories": [
+        {
+          "name": "Manage culture and change for/due to AI",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Evolve roles\nand staffing for/due to AI",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Deliver skills, training and literacy for AI",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        }
+      ]
+    },
+    "AI governance": {
+      "avg_maturity": "",
+      "target_maturity": "",
+      "gap": "",
+      "tier2_subcategories": [
+        {
+          "name": "Create, maintain and evolve AI governance policies and controls",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Develop AI governance operating models and teams",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Engineer oversight systems and enforce policies",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        }
+      ]
+    },
+    "AI engineering": {
+      "avg_maturity": "",
+      "target_maturity": "",
+      "gap": "",
+      "tier2_subcategories": [
+        {
+          "name": "Design and architect AI applications and systems",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Develop, test and integrate AI applications and systems",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Deploy, operate and scale AI systems",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Manage project, platform and application portfolios",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Develop and manage AI engineering teams",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        }
+      ]
+    },
+    "AI data": {
+      "avg_maturity": "",
+      "target_maturity": "",
+      "gap": "",
+      "tier2_subcategories": [
+        {
+          "name": "Acquire and prepare AI data",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Manage and govern AI Data",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        },
+        {
+          "name": "Build AI data utilisation and insights",
+          "avg_maturity": "0",
+          "target_maturity": "0",
+          "gap": "0"
+        }
+      ]
+    }
+  },
+  "tier2_categories": {}
+}

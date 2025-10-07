@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  ai-navigator:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - SMTP_HOST=${SMTP_HOST:-smtp.gmail.com}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - SECRET_KEY=${SECRET_KEY:-your-secret-key-change-in-production}
+    volumes:
+      - ./Assessment.xlsx:/app/Assessment.xlsx
+    restart: unless-stopped
