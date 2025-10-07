@@ -1,6 +1,16 @@
 # Completely Free Hosting Guide for AI Navigator
 
-This guide covers **100% free hosting options** for your AI Navigator application with no credit card required and no time limits.
+This guide covers **100% free hosting options** for your **complete AI Navigator application** (Frontend + Backend + Database) with no credit card required and no time limits.
+
+## 🏗️ **What Gets Deployed**
+
+Your deployment includes:
+- ✅ **Vue.js Frontend** (built and optimized)
+- ✅ **FastAPI Backend** (Python API server)
+- ✅ **Static File Serving** (frontend served by backend)
+- ✅ **Excel Data Processing** (Assessment.xlsx included)
+- ✅ **Email Functionality** (assessment results via email)
+- ✅ **Complete Web Application** (single URL for everything)
 
 ## 🆓 Best Free Hosting Options
 
@@ -35,6 +45,11 @@ This guide covers **100% free hosting options** for your AI Navigator applicatio
 
 3. **Your Live URL:**
    - You'll get: `https://your-app-name.onrender.com`
+   - **Frontend**: `https://your-app-name.onrender.com` (main web interface)
+   - **API**: `https://your-app-name.onrender.com/docs` (API documentation)
+   - **Health**: `https://your-app-name.onrender.com/health` (health check)
+   - **Complete application** accessible from one URL!
+   - **Frontend + Backend + API** all working together
    - Completely free, no expiration!
 
 ---
@@ -93,9 +108,11 @@ git push -u origin main
 7. **Done!** Your app will be live at `https://your-app-name.onrender.com`
 
 ### Step 3: Verify Deployment
-- Health check: `https://your-app-name.onrender.com/health`
-- Main app: `https://your-app-name.onrender.com`
-- API docs: `https://your-app-name.onrender.com/docs`
+- **Main App**: `https://your-app-name.onrender.com` (Vue.js frontend)
+- **API Docs**: `https://your-app-name.onrender.com/docs` (FastAPI backend)
+- **Health Check**: `https://your-app-name.onrender.com/health`
+- **Assessment Flow**: Complete questionnaire functionality
+- **Email Results**: Assessment results sent via email
 
 ---
 
