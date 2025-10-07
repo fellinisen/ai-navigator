@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ai-navigator
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        generateValue: true
+      - key: PYTHONPATH
+        value: /app/backend
