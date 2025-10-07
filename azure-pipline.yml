@@ -25,7 +25,7 @@ stages:
         scriptLocation: 'inlineScript'
         inlineScript: |
           az acr login --name crgdsdweur001
-          az acr repository delete --name crgdsdweur001 --image asset-management-be-dev:latest --yes
+          az acr repository delete --name crgdsdweur001 --image ai-navigator:latest --yes
 
 - stage: Build
   displayName: Build frontend and backend images
@@ -40,14 +40,14 @@ stages:
         command: build
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         containerRegistry: 'MGDS-Dev'
-        repository: 'asset-management-be-dev'
+        repository: 'ai-navigator'
         tags: |
           $(tag)
     - task: Docker@2
       displayName: Push
       inputs:
         command: push
-        repository: 'asset-management-be-dev'
+        repository: 'ai-navigator'
         containerRegistry: 'MGDS-Dev'
         tags: |
           $(tag)
