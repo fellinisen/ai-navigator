@@ -1,0 +1,53 @@
+# Docker
+# Build a Docker image
+# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
+
+# trigger:
+# - main
+
+variables:
+  tag: 'latest'
+
+
+stages:
+- stage: RemoveImages
+  displayName: Remove old images
+
+  jobs:
+  - job: Removeimages
+    displayName: Remove images
+    steps:
+    - task: AzureCLI@2
+      displayName: Purge old images
+      inputs:
+        azureSubscription: 'MGDS-ARM-Dev'
+        scriptType: 'bash'
+        scriptLocation: 'inlineScript'
+        inlineScript: |
+          az acr login --name crgdsdweur001
+          az acr repository delete --name crgdsdweur001 --image asset-management-be-dev:latest --yes
+
+- stage: Build
+  displayName: Build frontend and backend images
+
+  jobs:
+  - job: Buildbackend
+    displayName: Build backend
+    steps:
+    - task: Docker@2
+      displayName: Build backend image
+      inputs:
+        command: build
+        dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
+        containerRegistry: 'MGDS-Dev'
+        repository: 'asset-management-be-dev'
+        tags: |
+          $(tag)
+    - task: Docker@2
+      displayName: Push
+      inputs:
+        command: push
+        repository: 'asset-management-be-dev'
+        containerRegistry: 'MGDS-Dev'
+        tags: |
+          $(tag)
