@@ -666,9 +666,8 @@ async def send_email(email: str, assessment_result: AssessmentResult):
         raise HTTPException(status_code=500, detail=f"Failed to send email: {e}")
 
 
-@app.get("/")
-async def root():
-    return {"message": "AI Navigator Assessment API"}
+# Root endpoint removed to allow frontend static files to be served at "/"
+# API information is available at /docs endpoint
 
 
 @app.get("/questionnaires")

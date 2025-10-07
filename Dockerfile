@@ -16,5 +16,5 @@ COPY --from=frontend-build /app/frontend/dist ./frontend/dist
 COPY Assessment.xlsx ./Assessment.xlsx
 ENV PYTHONPATH=/app/backend
 WORKDIR /app/backend
-EXPOSE $PORT
-CMD uvicorn main:app --host 0.0.0.0 --port $PORT
+EXPOSE 8000
+CMD uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}
